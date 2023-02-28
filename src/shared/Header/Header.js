@@ -15,25 +15,25 @@ const Header = () => {
       .catch((e) => console.log(e));
   };
 
-  useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
+  // }, []);
 
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [theme]);
+  // useEffect(() => {
+  //   if (theme === "dark") {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // }, [theme]);
 
-  const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+  // const handleThemeSwitch = () => {
+  //   setTheme(theme === "dark" ? "light" : "dark");
+  // };
 
   return (
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -133,17 +133,17 @@ const Header = () => {
                 hover:bg-sky-600 focus:shadow-outline focus:outline-none"
                   aria-label="Sign up"
                 >
-                  Free Demo
+                  Subscribe
                 </Link>
               </li>
             </>
           )}
-          <button
+          {/* <button
             className="bg-gray-100 p-4 rounded-3xl ml-2"
-            onClick={handleThemeSwitch}
+            // onClick={handleThemeSwitch}
           >
             <FaLightbulb className="text-gray-800 h-6 w-6" />
-          </button>
+          </button> */}
         </ul>
         <div className="lg:hidden">
           <button
@@ -283,17 +283,17 @@ const Header = () => {
                         duration-200 rounded shadow-md bg-sky-500 hover:bg-sky-600 focus:shadow-outline focus:outline-none"
                             aria-label="Sign up"
                           >
-                            Free Demo
+                            Subscribe
                           </Link>
                         </li>
                       </>
                     )}
-                    <button
+                    {/* <button
                       className="bg-gray-100 p-4 rounded-3xl ml-2"
                       onClick={handleThemeSwitch}
                     >
                       <FaLightbulb className="text-gray-800 h-6 w-6" />
-                    </button>
+                    </button> */}
                   </ul>
                 </nav>
               </div>

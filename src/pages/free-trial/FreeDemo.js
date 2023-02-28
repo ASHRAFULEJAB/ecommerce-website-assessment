@@ -16,16 +16,11 @@ const FreeDemo = () => {
             <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
               <div class="text-white lg:w-1/2 lg:mx-6">
                 <h1 class="text-2xl font-semibold capitalize lg:text-3xl">
-                  Ultimate Vedio Anotation
+                  Subscribe Here
                 </h1>
 
                 <p class="max-w-xl mt-6">
-                  Annotation is an incredibly challenging task. Unlike static
-                  images, videos contain many high-dimensional data, making it
-                  difficult for computer vision to recognize objects and events.
-                  In addition, the medium is dynamic and complex and often
-                  requires the human eye to understand fully. Data management is
-                  another factor considering the size of files.
+                  Thank you so much for your subscription.We will get back to you as soon as possible!!
                 </p>
 
                 <button

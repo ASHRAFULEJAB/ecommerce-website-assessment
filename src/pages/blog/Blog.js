@@ -23,8 +23,7 @@ const Blog = () => {
                   to="/blog"
                   class="text-xl font-semibold text-gray-100 hover:underline dark:text-gray-800 "
                 >
-                  How to use sticky note for problem solving which helps in AI
-                  Sector?
+                  How to Ai is effecting us in every Sector?
                 </Link>
 
                 <span class="text-sm text-gray-100 dark:text-gray-700">
@@ -45,7 +44,7 @@ const Blog = () => {
                   to="/blog"
                   class="text-xl font-semibold text-gray-100 hover:underline dark:text-gray-800 "
                 >
-                  How to use DSA for problem solving?
+                  How to use Silk Cotton Clothes?
                 </Link>
 
                 <span class="text-sm text-gray-100 dark:text-gray-700">
@@ -66,7 +65,7 @@ const Blog = () => {
                   to="/blog"
                   class="text-xl font-semibold text-gray-100 hover:underline dark:text-gray-800 "
                 >
-                  How to do Vedio Anotation?
+                  How to wash clothes properly?
                 </Link>
 
                 <span class="text-sm text-gray-100 dark:text-gray-700">
@@ -87,7 +86,7 @@ const Blog = () => {
                   to="/blog"
                   class="text-xl font-semibold text-gray-100 hover:underline dark:text-gray-800 "
                 >
-                  All the features you want to know about Deep Learning!!
+                  All the techniques you want to know about Best Brand finding!!
                 </Link>
 
                 <span class="text-sm text-gray-100 dark:text-gray-700">
@@ -129,7 +128,7 @@ const Blog = () => {
                   to="/blog"
                   class="text-xl font-semibold text-gray-100 hover:underline dark:text-gray-800 "
                 >
-                  What do you want to know about AI Objection?
+                  What do you want to know about AI effectipon in Garments Industtry?
                 </Link>
 
                 <span class="text-sm text-gray-100 dark:text-gray-700">
